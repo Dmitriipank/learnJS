@@ -39,4 +39,3 @@ const mark1 = prompt('На сколько оцените его?','');
 personalMovieDB.movies[lastFilm] = mark;
 personalMovieDB.movies[lastFilm1] = mark1;
 console.log(personalMovieDB);
-console.log(personalMovieDB);
