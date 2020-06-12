@@ -16,12 +16,12 @@
 Ответы стоит поместить в отдельные переменные
 Записать ответы в объект movies в формате: 
     movies: {
-        'logan': '8.1'
+        'logan':  '8.1'
     }
 
 Проверить, чтобы все работало без ошибок в консоли */
 
-const numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?','');
+const numberOfFilms = prompt("Сколько фильмов вы  уже посмотрели?",'');
 
 const personalMovieDB = {
     count: numberOfFilms,
@@ -38,4 +38,5 @@ const mark1 = prompt('На сколько оцените его?','');
 
 personalMovieDB.movies[lastFilm] = mark;
 personalMovieDB.movies[lastFilm1] = mark1;
+console.log(personalMovieDB);
 console.log(personalMovieDB);
